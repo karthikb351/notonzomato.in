@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.11'
+before_script:
+- chmod +x deploy.sh
+branches:
+  only:
+  - master
+after_success: ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/karthikb351/chennairains.git
+notifications:
+  slack:
+    secure: yViI2PsKC99pCsf0oQFNPhHpk9LPmfT932wz7MiJJ4I9Barj3xg1dO8P5zavXFvZJIxVi1ckByjWXBr24xKZVHHC0LR/O6Xv68J2BGrh5r80cAQKLgeq5IC8EVaGqzeLA5yKZr+wQbUKD84B2TGL4WBzY9IYpIXmn+m+fwgFMbLIqoQvf/eTrjKEOVQAhjmRsrialDnMtmEidO7MSjQbekRdVDDc/L1HEVuD6js8Aj6A7fHm+v/VgiZs5KMPfSp3P1MxsjAwjtPfkUPPZORKEeQRVF46ndD+OTDZQMpPgKvtxarS5n+4toIejIpKwYxVptkCh16LKDIXmR/xKmDyOCf2NdRSwHHc3HtbOZort418ICi9uoyDrr2NKj/o+ZLaFP1O8NEQXRKJ4FAmC1hrDDA5Iq/t/u5iirMzp/M4s/6hyKT4rxGBWiYTs750+DryElN6Cy3TvR3hu1jXgfI2csZWoh7zeYYB9d4A2x/MgEMTry+ui4QKVV4s/AXScjNaR1kbY3IAjY5L6ftqKsTEa4D5p01ZZPdjMmIKEDu9VDRigw4KkEi/hoMXyCrswyaMcwdnqhmf/I7UcxCStA9jRaXNhaXdeaFmhMkfiYx9T8IDqigHDF6FB6CI5HWrVtTsjZK727taTz6HpFFAfrhLXLutHGSvcIZzBwe/6kQkY3A=
