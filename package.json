@@ -1,21 +1,21 @@
 {
-  "name": "chennairains",
+  "name": "notonzomato",
   "version": "1.0.0",
-  "description": "Crowdsourced list of resources for people affected by the #ChennaiRains.",
+  "description": "Crowdsourced list of resources for Street food.",
   "main": "build.js",
   "scripts": {
     "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karthikb351/chennairains.git"
+    "url": "git+https://github.com/karthikb351/notonzomato.in.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karthikb351/chennairains/issues"
+    "url": "https://github.com/karthikb351/notonzomato.in/issues"
   },
-  "homepage": "https://github.com/karthikb351/chennairains#readme",
+  "homepage": "https://github.com/karthikb351/notonzomato.in#readme",
   "dependencies": {
     "async": "^1.5.0",
     "jsonfile": "^2.2.3",
