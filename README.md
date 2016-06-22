@@ -1,17 +1,9 @@
-# #ChennaiRains Resource Center
-Crowdsourced list of resources for people affected by the #ChennaiRains.
+# #NotonZomato.in
+Crowdsourced list of resources of Street food.
 
-
-#### List of useful contacts - http://chennairains.org/contacts/
-#### List of places to donate - http://chennairains.org/donate/
-#### Live updates on various areas - http://chennairains.org/area-updates/
+#### To contribute - https://goo.gl/NqT6E8
 
 
 ### API
 
-We have a quick and dirty API from the Google Spreadsheets we are using. Updated every 5 minutes.
-
- - http://chennairains.org/api/area-updates.json
- - http://chennairains.org/api/contacts.json
- - http://chennairains.org/api/donate.json
-
+ - http://karthikb351.github.io/notonzomato.in/api/bangalore.json
